@@ -1,13 +1,23 @@
+/* style.css */
 body {
+  background: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: sans-serif;
-  background-color: #f4f4f4;
-  text-align: center;
+}
+
+.card {
+  background: white;
   padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 250px;
 }
-h1 {
-  color: #3498db;
-}
-button {
-  padding: 10px 20px;
-  font-size: 16px;
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
